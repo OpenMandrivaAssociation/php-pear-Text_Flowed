@@ -5,7 +5,7 @@
 
 Name:          php-pear-Text_Flowed
 Version:       0.0.2
-Release:       %mkrel 2
+Release:       %mkrel 3
 Summary:       Horde Mime Library
 License:       LGPL
 Group:         Networking/Mail
@@ -17,7 +17,6 @@ Requires:      horde-util
 Requires:       php-pear
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
 
 %description
 The Text_Flowed:: class provides common methods for manipulating text using the encoding described in RFC 3676 ('flowed' text)
