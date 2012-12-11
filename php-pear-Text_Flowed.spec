@@ -5,7 +5,7 @@
 
 Name:          php-pear-Text_Flowed
 Version:       0.0.2
-Release:       %mkrel 4
+Release:       %mkrel 3
 Summary:       Horde Mime Library
 License:       LGPL
 Group:         Networking/Mail
@@ -53,5 +53,23 @@ fi
 %dir %{peardir}/tests/Text_Flowed/tests
 %{peardir}/Text/Flowed.php
 %{peardir}/tests/Text_Flowed/tests/Flowed.phpt
+
+
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 564124
+- Increased release for rebuild
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 523852
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased release version
+
+* Mon Mar 08 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 515619
+- removed BuildRequires: horder-framework
+- import php-pear-Text_Flowed
 
 
