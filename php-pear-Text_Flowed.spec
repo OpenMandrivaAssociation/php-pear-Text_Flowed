@@ -5,7 +5,7 @@
 
 Name:          php-pear-Text_Flowed
 Version:       0.0.2
-Release:       4
+Release:       5
 Summary:       Horde Mime Library
 License:       LGPL
 Group:         Networking/Mail
